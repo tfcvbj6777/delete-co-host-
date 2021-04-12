@@ -19,4 +19,4 @@ while True:
     elif choice == "2":
         userid=input("Type СoHost Link: ")
         userid=client.get_from_code(userid).objectId    
-        sub_client.kick(userid=userid, chatid=chatid, allowRejoin=False)
+        sub_client.kick(userId=userid, chatId=chatid, allowRejoin=False)
